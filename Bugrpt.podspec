@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "Bugrpt iOS SDK"
   s.description  = "iOS library for Bugrpt Crash Report Service"
   s.homepage     = "http://crash.163.com"
-  s.license      = {"type": "Copyright","text": "Copyright 2015 126.com. All rights reserved.\n"}
+  s.license      = 'MIT'
   s.author       = { "apksafe" => "apksafe@163.com" }  
   s.platform     = :ios, "7.0"
   s.source       = { :http => "https://github.com/apksafe/Bugrpt-iOS/master/Release/bugrpt_ios_1.0.8.zip"}
