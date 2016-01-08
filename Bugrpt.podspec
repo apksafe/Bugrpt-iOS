@@ -13,11 +13,11 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Bugrpt'
-  s.version      = '3.2'
+  s.version      = '1.0.2'
   s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
 
-  s.homepage     = 'https://github.com/tonymillion/Reachability'
-  s.authors      = { 'Tony Million' => 'tonymillion@gmail.com' }
+  s.homepage     = 'http://www.baidu.com/'
+  s.authors      = { 'apksafe' => 'apksafe@163.com' }
   #s.social_media_url   = "http://twitter.com/tonymillion"
 
   s.license      = { :type => 'BSD', :text => license }
@@ -27,7 +27,5 @@ Pod::Spec.new do |s|
   s.framework    = 'SystemConfiguration'
 
   s.requires_arc = true
-  s.ios.deployment_target = "6.0"
-  s.osx.deployment_target = "10.8"
-  s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target = "7.0"
 end
