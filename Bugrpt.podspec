@@ -13,7 +13,7 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Bugrpt'
-  s.version      = '1.0.2'
+  s.version      = ‘1.0.3’
   s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
 
   s.homepage     = 'http://www.baidu.com/'
