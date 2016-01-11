@@ -13,19 +13,21 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Bugrpt'
-  s.version      = ‘1.0.3’
-  s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
-
-  s.homepage     = 'http://www.baidu.com/'
+  s.version      = '1.0.4'
+  s.summary      = "Bugrpt iOS SDK"
+  s.description  = "iOS library for Crash Report Service"
+  s.homepage     = 'http://crash.163.com/'
   s.authors      = { 'apksafe' => 'apksafe@163.com' }
-  #s.social_media_url   = "http://twitter.com/tonymillion"
 
   s.license      = { :type => 'BSD', :text => license }
 
-  s.source       = { :git => 'https://github.com/apksafe/Bugrpt-iOS.git', :tag => "v#{s.version}" }
-  s.source_files = 'Reachability.{h,m}'
-  s.framework    = 'SystemConfiguration'
+  s.source       = { :http => "https://raw.githubusercontent.com/apksafe/Bugrpt-iOS/master/Release/bugrpt_ios_1.0.8.zip" }
 
   s.requires_arc = true
   s.ios.deployment_target = "7.0"
+
+  s.vendored_frameworks ='Bugrpt.framework'
+  s.source_files = 'Bugrpt.framework/Headers/*.h'
+  s.frameworks = 'SystemConfiguration','Security','JavaScriptCore'
+
 end
