@@ -13,9 +13,9 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Bugrpt'
-  s.version      = '1.0.6'
+  s.version      = '1.0.8'
   s.summary      = "Bugrpt iOS SDK"
-  s.description  = "iOS library for Crash Report Service"
+  s.description  = "iOS framework for Crash Report Service"
   s.homepage     = 'http://crash.163.com/'
   s.authors      = { 'apksafe' => 'apksafe@163.com' }
   s.license      = { :type => 'BSD', :text => license }
@@ -25,9 +25,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.vendored_frameworks ='Bugrpt.framework'
   s.source_files = 'Bugrpt.framework/Headers/*.h'
-  s.frameworks = 'SystemConfiguration','Security','JavaScriptCore'
-  
-  #s.source       = { :git => 'https://github.com/apksafe/Bugrpt-iOS.git', :tag => "v#{s.version}" }
-  #s.source_files = 'Reachability.{h,m}'
-  
+  s.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork'
 end
