@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks ='Bugrpt.framework'
   s.source_files = 'Bugrpt.framework/Headers/*.h'
   s.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork'
+  s.libraries  = 'z','c++'
 end
