@@ -13,18 +13,18 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Bugrpt'
-  s.version      = '1.1.1'
+  s.version      = '1.1.2'
   s.summary      = "Bugrpt iOS SDK"
   s.description  = "iOS framework for Crash Report Service"
   s.homepage     = 'http://crash.163.com/'
   s.authors      = { 'apksafe' => 'apksafe@163.com' }
   s.license      = { :type => 'BSD', :text => license }
-  s.source       = { :http => "https://raw.githubusercontent.com/apksafe/Bugrpt-iOS/master/Release/bugrpt_ios_1.1.1.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/apksafe/Bugrpt-iOS/master/Release/bugrpt_ios_1.1.2.zip" }
   s.requires_arc = true
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
   s.vendored_frameworks ='Bugrpt.framework'
   s.source_files = 'Bugrpt.framework/Headers/*.h'
   s.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork'
-  s.libraries  = 'z','c++'
-end
+  s.library = 'c++','z'
+  end
