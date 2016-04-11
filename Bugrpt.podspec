@@ -13,7 +13,7 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Bugrpt'
-  s.version      = '1.1.2'
+  s.version      = '1.1.3'
   s.summary      = "Bugrpt iOS SDK"
   s.description  = "iOS framework for Crash Report Service"
   s.homepage     = 'http://crash.163.com/'
