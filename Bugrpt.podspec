@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://crash.163.com/'
   s.authors      = { 'apksafe' => 'apksafe@163.com' }
   s.license      = { :type => 'BSD', :text => license }
-  s.source       = { :http => "https://raw.githubusercontent.com/apksafe/Bugrpt-iOS/master/Release/bugrpt_ios_1.1.2.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/apksafe/Bugrpt-iOS/master/Release/bugrpt_ios_1.1.3.zip" }
   s.requires_arc = true
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
