@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
   s.vendored_frameworks ='Bugrpt.framework'
-  s.source_files = 'Bugrpt.framework/Headers/*.h'
+  s.public_header_files = 'Bugrpt.framework/Headers/*.h'
   s.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork'
   s.library = 'c++','z'
   end
