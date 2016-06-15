@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.vendored_frameworks ='BugrptExtension.framework'
   s.public_header_files = 'BugrptExtension.framework/Headers/*.h'
-  s.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork','JavaScriptCore'
+  s.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork','JavaScriptCore','WatchKit'
   s.library = 'c++','z'
   end
