@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<script>
+    var date=new Date();
+    date.abc();
+
+    try {
+        var date=new Date();
+        date.abc();
+    } catch (e) {
+        Bugrpt.reportException(e);
+    }
+
+</script>

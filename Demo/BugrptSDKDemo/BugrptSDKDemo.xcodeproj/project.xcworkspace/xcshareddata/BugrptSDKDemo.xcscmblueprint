@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b225b9e3-496d-4612-a93c-cb19aab612fe++8813",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b225b9e3-496d-4612-a93c-cb19aab612fe++8813" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b225b9e3-496d-4612-a93c-cb19aab612fe++8813" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4A233AFC-870E-43B3-A9CF-36679D5CCD1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b225b9e3-496d-4612-a93c-cb19aab612fe++8813" : "yunbu\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BugrptSDKDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Release\/iOS\/bugrpt_ios\/bugrpt_ios_1.1.7\/BugrptSDKDemo\/BugrptSDKDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.hz.netease.com\/svn\/is",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b225b9e3-496d-4612-a93c-cb19aab612fe++8813"
+    }
+  ]
+}

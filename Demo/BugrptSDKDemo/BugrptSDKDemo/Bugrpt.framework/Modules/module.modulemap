@@ -1,0 +1,6 @@
+framework module Bugrpt {
+  umbrella header "Bugrpt.h"
+
+  export *
+  module * { export * }
+}
