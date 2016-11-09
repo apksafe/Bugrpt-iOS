@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'BugrptTwo'
+  s.name         = 'BugrptSDK'
   s.version      = '1.2.0.1'
   s.summary      = "Bugrpt iOS SDK"
   s.description  = "iOS framework for Crash Report Service"
